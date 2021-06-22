@@ -1,0 +1,46 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav>ul{
+    display: flex;
+    list-style: none;
+}
+nav>ul>li{
+    margin: 0px 20px;
+    font-size: 1.5rem;
+}
+nav>ul>h1:hover{
+    transform: scale(1.1);
+    cursor: crosshair;
+
+}
+nav>ul>li:hover{
+    background-color: black;
+    color: white;
+    text-decoration: underline;
+    padding: 0px 10px;
+}
+.fa{
+    padding: 10px;
+    text-align: center;
+    color: white;
+    margin: 0px 5px;
+}
+.fa:hover{
+    background-color: white !important;
+    color: black !important;
+    border: 1px solid black !important;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    background-image: url("harsh.jpg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
